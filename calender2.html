@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jadwal</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+   <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="calendar.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="row header mb-4">
+<div class="col-2">
+ <a href="javascript:history.back()" class="align-self-start">
+      <i class="bi bi-arrow-left fs-1"></i>
+    </a> 
+</div>
+<div class="col-10 text-center">
+   <h4 class="mt-1" >Jadwal</h4>
+</div> 
+    
+  <br>
+
+  <!--  start calendar  -->
+  <section class="container">
+      <div class="calendar">
+        <div class="month-indicator">
+          <time datetime="2022-02"> Februari 2022 </time>
+        </div>
+        <div class="day-of-week">
+          <div>MIN</div>
+          <div>SEN</div>
+          <div>SEL</div>
+          <div>RAB</div>
+          <div>KAM</div>
+          <div>JUM</div>
+          <div>SAB</div>
+        </div>
+        <div class="date-grid">
+      <button class="date-grid-btn">
+        <time>1</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>2</time>
+      </button>
+      <button class="date-grid-btn">
+        <time class="calendar-slot">3</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>4</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>5</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>6</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>7</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>8</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>9</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>10</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>11</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>12</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>13</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>14</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>15</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>16</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>17</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>18</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>19</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>20</time>
+      </button>
+      <button class="date-grid-btn all-full">
+        <time class="calendar-slot">21</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>22</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>23</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>24</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>25</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>26</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>27</time>
+      </button>
+      <button class="date-grid-btn">
+        <time>28</time>
+      </button>
+    </div>
+      </div>
+  </section>
+  <!--  end calendar  -->
+
+    <a href="pemilihan-jadwal.html">
+  <div class="container fixed-bottom">
+    <div class="d-grid gap-2">
+  <button class="btn-protectmu" type="button">Pilih Sesi</button>
+    </div>    
+</div>
+</div> 
+</div>
+    </a>
+  
+  <br>
+
+  
+<div class="container p-2">
+<div class="d-flex flex-column">
+  <div><div id="sesi-tersedia" class="d-inline-flex me-2"></div>Sesi masih tersedia</div>
+  <div><div id="beberapa-tersedia" class="d-inline-flex me-2"></div>Beberapa masih tersedia</div>
+  <div><div id="sesi-penuh" class="d-inline-flex me-2"></div>Sesi sudah penuh</div>
+</div>
+</div>
+
+
+
+
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
