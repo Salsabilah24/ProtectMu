@@ -1,0 +1,139 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.calendar {
+  background-color: pink;
+}
+
+/* Text Nama Bulan */
+.month-indicator {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* CSS grid untuk tanggal */
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* Styles untuk weekday/weekend header */
+.day-of-week {
+  margin-top: 1.25em;
+}
+
+.day-of-week > * {
+  font-size: 0.7em;
+  color: gray;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+/* Tanggal */
+.date-grid {
+  gap: 2px;
+  padding: 4px;
+  margin-top: 0.5em;
+}
+
+/* Posisi untuk hari pertama */
+.date-grid button:first-child {
+  grid-column: 3; /* Mulai dari kolom ke 3 */
+}
+
+/* Style untuk tiap day nya */
+.date-grid-btn {
+  position: relative;
+  border: 0;
+  width: 100%;
+  height: 45px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.date-grid button:hover,
+.date-grid button:focus {
+  outline: none;
+  background-color: #B03B89;
+  color: white;
+}
+
+.date-grid button:active,
+.date-grid button.is-selected {
+  background-color: green;
+  color: lightgreen;
+}
+
+/* Style untuk slot calendar */
+.calendar-slot {
+  padding: 2px 8px;
+  border-bottom: 2px solid red;
+}
+
+.all-full {
+  background-color: plum;
+}
+
+.btn-protectmu{
+  background-color: #B03B89;
+  color: white;
+height: 48px;
+left: 16px;
+right: 17px;
+top: 574px;
+border-radius: 48px;
+}
+
+.btn-protectmu:active{
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #FF869E;
+}
+
+#sesi-tersedia{
+  width: 38px;
+  height: 32px;
+  position: relative;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+#beberapa-tersedia{
+  width: 38px;
+  height: 32px;
+  position: relative;
+  background-color: #FF869E;
+  display: flex;
+  padding: 2px 8px;
+  border-bottom: 2px solid red;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+}
+
+#sesi-penuh{
+  width: 38px;
+  height: 32px;
+  position: relative;
+  background-color: plum;
+  display: flex;
+  padding: 2px 8px;
+  border-bottom: 2px solid red;
+}
+
+i{
+ color: black;
+}
