@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    background-color: #FF869E;
+  }
+  
+  .btn-protectmu{
+    background-color: #B03B89;
+    color: white;
+  height: 48px;
+  left: 16px;
+  right: 17px;
+  top: 574px;
+  border-radius: 48px;
+  }
+  
+  i{
+   color: black;
+  }
+  
+  i{
+   color: black;
+  }
+  
+  
+  
+  .btn-protectmu:active{
+    background-color: black;
+  }
+  
+  .btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-active-color: white;
+    --bs-btn-color: white;
+    --bs-btn-bg: #B03B89;
+    --bs-btn-border-color: #B03B89;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: #B03B89;
+    --bs-btn-hover-bg: #B03B89;
+    --bs-btn-hover-border-color: #B03B89;
+    --bs-btn-focus-shadow-rgb: #B03B89;
+    --bs-btn-active-bg: #B03B89;
+    --bs-btn-active-border-color: #B03B89;
+    
+  }
+  
+  h4{
+  font-family: 'Nunito Sans', sans-serif;
+  }
+  h5{
+    font-family: 'Nunito Sans', sans-serif;
+  
+  }
+  
+  p{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
