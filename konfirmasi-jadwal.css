@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    background-color: #FF869E;
+  }
+  
+  
+  
+  .btn-protectmu{
+    background-color: #B03B89;
+    color: white;
+  height: 48px;
+  left: 16px;
+  right: 17px;
+  top: 574px;
+  border-radius: 48px;
+  }
+  
+  .btn-protectmu:active{
+    background-color: black;
+  }
+  
+  h4{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  h5{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  h7{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  p{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .btn-protectmu-secondary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: #B03B89;
+    --bs-btn-border-radius: 16px;
+    --bs-btn-hover-color: #B03B89;
+    --bs-btn-hover-bg: #;
+    --bs-btn-hover-border-color: #B03B89;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #B03B89;
+  border: 2px solid #B03B89 !important;
+  }
+  
+  i{
+   color: black;
+  }
