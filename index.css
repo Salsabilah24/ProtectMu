@@ -90,3 +90,7 @@ border-radius: 100px;
 .buttonPrime{
     padding-bottom: 10px;
 }
+
+a{
+    text-decoration: none;
+}
